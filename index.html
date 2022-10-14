@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test3</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=".//index.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdownbtn">dropdown</button>
+                        <div class="dropdownlist">
+                            <a href="">link</a>
+                            <a href="">link</a>
+                            <a href="">link</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+        </div>
+        <form action="form.php" method="post">
+            <div class="fbox">
+                <div class="formbox">
+                    <div class="namebox">
+                        <div class="fistnamebox">
+                            <label for="fistname">first name:</label>
+                            <input type="text" id="fistname" name="fistname" placeholder="enter fistname">
+                        </div>
+                        <div class="lastnamebox">
+                            <label for="lastname">last name:</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="enter lastname">
+                        </div>
+                    </div>
+                    <div class="birthdatebox">
+                        <label for="birthdate">birthdate:</label>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </div>
+                    <div class="mailbox">
+                        <label for="mail">E-Mail Address:</label>
+                        <input type="text" name="mail" id="mail" placeholder="enter mail">
+                    </div>
+                    <div class="genderbox">
+                        <label class="srt" for="gender">gender:</label>
+                        <input type="radio" name="fermale" id="radio" value="male">
+                        <label class="srt" for="male">male</label>
+                        <input type="radio" name="fermale" id="radio" value="fermale">
+                        <label class="srt" for="fermale">fermale</label>
+                    </div>
+                    <div class="countrybox">
+                        <label for="country">Choose your hometown:</label>
+                        <select id="country" name="country">
+                            <option value="baku">baku</option>
+                            <option value="turkey">turkey</option>
+                            <option value="russian">russian</option>
+                        </select>
+                    </div>
+                    <div class="textbox">
+                        <label for="text">Additional information about yourself (optional):</label>
+                        <input type="text" name="text" id="text">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="footerbox">
+            <a href="mailto:oyunlartv11@gmail.com">mail gonder</a>
+        </div>
+    </body>
+</html>
